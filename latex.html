@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latex | site</title>
+    <link rel="stylesheet" href="latex.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <header class="wrapper">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tutorial">Tutorial</a></li>
+        </ul>
+    </header>
+
+    <div class="wrapper content">
+        <div class="top-text">
+            <h1>About</h1>
+            <p>Good day My friend and friend and all of those STEM enthusiast, i want to introduce to you template that encompassed all possible diagram you would need for you would need for all your STEM and they will all be in LATEX format. <br> You can now download these LATEX codes for images need for Mathematics and Physics. We would start from basics like drawing a line, circle and span to more advanced concept like 3D diagrams and some diagrams used in Quantum Mechanics and many more. <br>AIM <br> 
+            <ol>
+                <li>Reduce the complexity when it comes to STEM diagrams</li>
+                <li>Focus on the main part of your project</li>
+                <li>Allows for customization</li>
+                <li>Easy to use and with well detialed Explanation and used cases</li>
+            </ol> </p>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="topic">
+            <h2>Lines</h2>
+            <p>Lines are one of the most easiest diagram to make. All you have to do is to: 
+                <ol>
+                    <li>Declare that you are using the <strong>tikz</strong> package using <span class="highlight package-latex">\usepackage{tikz}</span></li>
+                    <li>To draw, you just specify the start and stop Co-ordinate, in the example (0,0) and (4,0) are the start and stop point respectively </li>
+                </ol>
+            </p>
+        </div>
+
+        <article class="item">
+            <img src="image/line(2).png" alt="">
+            <p><span class="head-latex">\documentclass{article}</span> <br>
+                <span class="package-latex">\usepackage{tikz}</span>
+                 <br> 
+                 <span class="beg-end-latex">\begin{document} </span>  <br>
+                 <span class="beg-end-latex">\begin{tikzpicture}</span> <br>
+                
+                    <span class="head-latex">\draw (0,0) -- (4,0); </span><br>
+                    <span class="beg-end-latex">\end{tikzpicture}</span> <br>
+                <span class="beg-end-latex">\end{document} </span></p>
+        </article>
+    </div>
+
+</body>
+</html>
